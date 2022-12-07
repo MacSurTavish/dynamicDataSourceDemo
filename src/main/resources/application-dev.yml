@@ -21,14 +21,14 @@ spring:
     ds:
       # 主库数据源，默认 master 不能变
       master:
-        username: qcc123
-        password: Llx971018
-        url: jdbc:mysql://rm-bp12511328i86899l7o.mysql.rds.aliyuncs.com:3306/datacenter?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+        username: 
+        password: 
+        url: 
       # 从库数据源
       slave:
-        username: qcc123
-        password: Llx971018
-        url: jdbc:mysql://rm-bp12511328i86899l7o.mysql.rds.aliyuncs.com:3306/sys?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+        username: 
+        password: 
+        url: 
     # 初始连接数
     initialSize: 5
     # 最小连接池数量
